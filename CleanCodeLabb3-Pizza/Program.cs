@@ -6,7 +6,8 @@ namespace CleanCodeLabb3_Pizza
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DisplayText.DisplayMenu();
+            Console.ReadKey();
         }
     }
 }
